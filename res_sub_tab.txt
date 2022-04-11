@@ -1,0 +1,153 @@
+Tabelas Latex para os resultados dos métodos subjetivos
+
+
+Mental demand average grouped by participant and guidance method.
+
+\begin{table}[htb]
+\centering
+\caption{Mental demand average grouped by participant and guidance method.}
+\label{tab:media_deman_mental_cen_part}
+\begin{tabular}{lrrrrrr}
+\toprule
+{} &  Base &  Audio &  Haptic Belt &  Virtual Cane &  Mixture &  Visual Impairment \\
+Participant &       &        &              &               &          &                    \\
+\midrule
+001C        & 2.000 & 12.000 &       12.000 &         2.500 &    6.000 &                  0 \\
+001         & 6.000 & 12.500 &       12.000 &         5.000 &    9.500 &                  1 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+
+Mental demand average grouped by participant and visual impairment.
+
+\begin{table}[htb]
+\centering
+\caption{Mental demand average grouped by participant and visual impairment.}
+\label{tab:media_deman_mental_cen_def}
+\begin{tabular}{lrrrrr}
+\toprule
+{} &  Base &  Audio &  Haptic Belt &  Virtual Cane &  Mixture \\
+Visual Impairment &       &        &              &               &          \\
+\midrule
+0                 & 2.000 & 12.000 &       12.000 &         2.500 &    6.000 \\
+1                 & 6.000 & 12.500 &       12.000 &         5.000 &    9.500 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+
+Mental workload average grouped by participant and guidance method.
+
+\begin{table}[htb]
+\centering
+\caption{Mental workload average grouped by participant and guidance method.}
+\label{tab:media_carg_mental_cen_part}
+\begin{tabular}{lrrrrrr}
+\toprule
+{} &  Base &  Audio &  Haptic Belt &  Virtual Cane &  Mixture &  Visual Impairment \\
+Participant &       &        &              &               &          &                    \\
+\midrule
+001C        & 4.500 &  7.750 &        7.750 &         4.833 &    6.250 &                  0 \\
+001         & 7.917 & 10.583 &       14.750 &         6.917 &    9.167 &                  1 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+
+Mental workload average grouped by participant and guidance method.
+
+\begin{table}[htb]
+\centering
+\caption{Mental workload average grouped by participant and guidance method.}
+\label{tab:media_carg_mental_cen_def}
+\begin{tabular}{lrrrrr}
+\toprule
+{} &  Base &  Audio &  Haptic Belt &  Virtual Cane &  Mixture \\
+Visual Impairment &       &        &              &               &          \\
+\midrule
+0                 & 4.500 &  7.750 &        7.750 &         4.833 &    6.250 \\
+1                 & 7.917 & 10.583 &       14.750 &         6.917 &    9.167 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+
+Adapted Sagat average global score grouped by participant and guidance method.
+
+\begin{table}[htb]
+\centering
+\caption{Adapted Sagat average global score grouped by participant and guidance method.}
+\label{tab:media_sagat_cen_part}
+\begin{tabular}{lrrrrrr}
+\toprule
+{} &  Base &  Audio &  Haptic Belt &  Virtual Cane &  Mixture &  Visual Impairment \\
+Participant &       &        &              &               &          &                    \\
+\midrule
+001C        & 0.575 &  0.696 &        0.675 &         0.500 &    0.450 &                  0 \\
+001         & 1.000 &  0.575 &        0.458 &         0.483 &    0.688 &                  1 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+
+Adapted Sagat average global score grouped by participant and visual impairment.
+
+\begin{table}[htb]
+\centering
+\caption{Adapted Sagat average global score grouped by participant and visual impairment.}
+\label{tab:media_sagat_cen_def}
+\begin{tabular}{lrrrrr}
+\toprule
+{} &  Base &  Audio &  Haptic Belt &  Virtual Cane &  Mixture \\
+Visual Impairment &       &        &              &               &          \\
+\midrule
+0                 & 0.575 &  0.696 &        0.675 &         0.500 &    0.450 \\
+1                 & 1.000 &  0.575 &        0.458 &         0.483 &    0.688 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+
+Guidance method questionnaire average global score grouped by participant.
+
+\begin{table}[htb]
+\centering
+\caption{Guidance method questionnaire average global score grouped by participant.}
+\label{tab:media_quest_part}
+\begin{tabular}{lrrrrr}
+\toprule
+{} &  Audio &  Haptic Belt &  Virtual Cane &  Mixture &  Visual Impairment \\
+Participant &        &              &               &          &                    \\
+\midrule
+001C        &  3.333 &        3.800 &         3.200 &    2.556 &                  0 \\
+001         &  5.000 &        3.400 &         3.000 &    3.667 &                  1 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+
+Guidance method questionnaire average global score grouped by visual impairment.
+
+\begin{table}[htb]
+\centering
+\caption{Guidance method questionnaire average global score grouped by visual impairment.}
+\label{tab:media_quest_def}
+\begin{tabular}{lrrrr}
+\toprule
+{} &  Audio &  Haptic Belt &  Virtual Cane &  Mixture \\
+Visual Impairment &        &              &               &          \\
+\midrule
+0                 &  3.333 &        3.800 &         3.200 &    2.556 \\
+1                 &  5.000 &        3.400 &         3.000 &    3.667 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
