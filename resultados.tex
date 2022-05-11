@@ -1,0 +1,51 @@
+%CAPÍTULO 4: ANÁLISE DOS RESULTADOS E DISCUSSÃO
+
+%1. Elabore um parágrafo que introduz o capítulo: Este capítulo apresenta (descreva o objetivo do capítulo ...). É constituído de N seções a saber...
+%2. Caso vc tenha aplicado a sua contribuição (modelo, produto, processo etc.) em um caso (empresa, laboratório, simulação etc.), apresente a descrição e análise dos resultados. Na seção de discussão cabem as análises de cenários What-If ou de sensibilidade. Exemplo: se o parâmetro X aumentar de N para N+1, o resultado poderia mudar de Y para Z?
+%3. Elabore um parágrafo que conclui o capítulo e introduz o capítulo seguinte.
+
+
+Throughout the experiment, three data sources were gathered from the participants, and this chapter will show their values, will explain the process to analyze the data and will discuss their results. Each source will have its own section, making up to three sessions in this chapter and they are:
+
+\begin{itemize}
+    \item Data collected from the simulation;
+    \item Data collected from questionnaires;
+    \item Data collected from physiological sensors.
+\end{itemize}
+
+From these point, the results' sample of the blind participant will be called "blind" sample and the results' sample of the sighted participants will be called "sight" sample.
+
+The processing of each data collected is rather similar and follow these steps:
+\begin{enumerate}
+    \item Separate the "blind" sample and the "sight" sample;
+    \item Check if the samples are normally distributed; \label{itm:results_shapiro} \\
+        The normality of the samples is needed to be verified because the next step can only be performed on normal distribution
+    \item Check if the "blind" sample is statistically different then the "sight" sample; \label{itm:results_t_test} \\ 
+        The conclusions made by the can only have a statistical validation if the samples are different, otherwise one could argument that the results cannot be analyzed separately.
+    \item Calculate the average of of each participant in each method; \label{itm:results_average_method_particpant}
+    \item Calculate the average of the participant group in each method. \label{itm:results_average_method}
+\end{enumerate}
+
+\section{Data from the simulation}
+
+\input{Resultados/SimulationData}
+
+\section{Data from questionnaires}
+
+\input{Resultados/SubjectiveData}
+
+\section{Data from physiological sensors}
+
+Three different sensor data were gathered:
+\begin{itemize}
+    \item \nameref{subsec:results_ecg}
+    \item \nameref{subsec:results_gsr_temp}
+\end{itemize}
+
+The temperature data was collected only to verify that the changes noted in the GSR data were consequences of the workload provoked by the experiment and not by a temperature variation. Because of this, both GSR and temperature will be presented and analysed together.
+
+\subsection{Electrocardiogram (ECG) data}
+\label{subsec:results_ecg}
+
+\subsection{Galvanic skin reaction and temperature data;}
+\label{subsec:results_gsr_temp}

@@ -1,2 +1,0 @@
-Carimbo de data/hora	Participante	Demanda Mental	Demanda física	Demanda Temporal	Perfomance	Esforço	Frustação
-22/03/2022 10:19:05		15	10	12	3	5	7
